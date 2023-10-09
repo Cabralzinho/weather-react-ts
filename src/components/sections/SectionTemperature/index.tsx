@@ -6,10 +6,10 @@ export const SectionTemperature = () => {
   const { cityWeather, isCityWeatherLoading } = useWeather();
 
   const weatherIcons = {
-    Clear: "./public/ilustrator/sunLight.svg",
-    Clouds: "./public/ilustrator/cloudFull.svg",
-    Rain: "./public/ilustrator/rain.svg",
-    Snow: "./public/ilustrator/snow.svg"
+    Clear: "./ilustrator/sunLight.svg",
+    Clouds: "./ilustrator/cloudFull.svg",
+    Rain: "./ilustrator/rain.svg",
+    Snow: "./ilustrator/snow.svg"
   };
 
   return (
