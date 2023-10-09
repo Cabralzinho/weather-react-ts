@@ -28,7 +28,7 @@ export const SectionTemperature = () => {
               <p>Max: {convertKelvinToCelsius(cityWeather.main.temp_max)}º</p>
               <p>Min: {convertKelvinToCelsius(cityWeather.main.temp_min)}º</p>
             </div>
-            <div className="flex gap-6 dark:bg-blue-700 dark:text-gray-300 bg-blue-600 rounded-xl px-4 py-2">
+            <div className="flex gap-6 dark:bg-blue-600 dark:text-gray-300 bg-blue-300 rounded-xl px-4 py-2">
               <div className="flex items-center gap-1">
                 <Icons.DropLet />
                 <span>{cityWeather.main.humidity}%</span>
