@@ -14,7 +14,7 @@ export const SectionTemperature = () => {
 
   return (
     <section>
-      <div className="flex flex-col items-center gap-2 pb-5">
+      <div className="flex flex-col items-center gap-2 pb-5 text-blue-950">
         {cityWeather &&
           <>
             <img

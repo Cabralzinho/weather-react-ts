@@ -66,9 +66,9 @@ export const Navbar = () => {
                 <li
                   key={city.name}
                   onClick={() => handleCityClick(city)}
-                  className="flex items-center mobile:justify-between gap-4 cursor-pointer hover:bg-blue-400 transition-all p-2">
+                  className="flex items-center mobile:justify-between gap-4 cursor-pointer bg-blue-100 hover:bg-blue-300 dark:hover:bg-blue-400 transition-all p-2">
                   <span>{city.name}</span>
-                  <span className="opacity-80 text-sm">{city.state}</span>
+                  <span className="dark:opacity-80 opacity-90 text-sm">{city.state}</span>
                 </li>
               ))}
             </ul>)
